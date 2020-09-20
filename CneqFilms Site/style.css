@@ -1,0 +1,76 @@
+*
+{
+  margin:0;
+  padding: 0;
+}
+.header
+{
+  height: 100vh;
+}
+.home-video
+{
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   min-width: 100%;
+   min-height: 100%;
+   width: auto;
+   height: auto;
+   z-index: -1;
+}
+@media (min-aspect-ratio:16/9)
+{
+  .home-video
+  {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio:16/9)
+{
+  .home-video
+  {
+    width: auto;
+    height: 100%;
+  }
+}
+.home-title
+{
+
+  position: relative;
+  text-align: center;
+  font-family: monospace;
+  color: #fff;
+  top: 350px;
+
+}
+.home-title h1
+{
+
+  font-size: 80px;
+  font-weight: 100;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+}
+.btn
+{
+  font-size: 18px;
+  color: #fff;
+  margin: 5px;
+  padding: 7px 22px;
+  text-decoration: none;
+  border: 1px solid coral;
+  border-radius: 25px;
+}
+.btn-subscribe:hover
+{
+  background: coral;
+  transition: .5s;
+
+}
+.btn-request:hover
+{
+  background: coral;
+  transition: .5s;
+
+}
